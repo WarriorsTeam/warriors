@@ -16,14 +16,14 @@ while true ; do
     tmux detach -s $entry
   done
   echo -e "${CYAN}|-------------|---------------|----------------|----------------|${NC}"
-echo -e "${CYAN}|EDIT     __  |BY  _______    | ___ POUYA.P___ |  ____________  |${NC}"
+echo -e "${CYAN}|EDIT     __  |BY  _______    | ___ MAHSA.N___ |  ____________  |${NC}"
 echo -e "${CYAN}|        |  | |   /  __   \   | \  \      /  / | |   _________| |${NC}"
 echo -e "${CYAN}|        |  | |  /  |  |   \  |  \  \    /  /  | |  |_________  |${NC}"
 echo -e "${CYAN}| ___    /  / | |   |  |    | |   \  \  /  /   | |   _________| |${NC}"
 echo -e "${CYAN}| \  \__/  /  |  \  |__|   /  |    \  \/  /    | |  |_________  |${NC}"
 echo -e "${CYAN}|  \______/   |   \_______/   |     \____/     | |____________| |${NC}"
 echo -e "${CYAN}|-------------|---------------|----------------|----------------|${NC}"
-echo -e "${CYAN}|THIS SOURCE BASED ON TELEMUTE AND EDITED FOR JOVEGOD BY POUYA.P|${NC}"
+echo -e "${CYAN}|THIS SOURCE BASED ON TELEMUTE AND EDITED FOR WarriorsTG BY MAHSA.N|${NC}"
 echo -e "${CYAN}|-------------|---------------|----------------|----------------|${NC}"
 echo -e "${CYAN}YOUR BOT RUNING NOW! PLEASE CLOSE YOUR TERMINAL WINDOW${NC}"
   sleep 1000
