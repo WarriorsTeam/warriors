@@ -1,12 +1,12 @@
-# [JOVE GOD](https://github.com/JOVETEAM/jove)
+# [WarriorsTG](https://github.com/WARRIORSTEAM/warriors)
 *TG-CLI based broadcasting bot!*
 
 *JoveGod was based on TeleMute!*
 # Install
 ```
 cd $HOME
-git clone https://github.com/JOVETEAM/jove.git
-cd jove
+git clone https://github.com/WARRIORSTEAM/warriors.git
+cd warriors
 chmod +x install.sh
 ./install.sh
 #هرقسمت که 
@@ -31,16 +31,12 @@ Create a bot!
 
 Tasted On Ubuntu 14.04 LTS and 16.04 LTS
 
-For Buying server:
-
-[JoveServer](https://joveserver.com)
-
 # Help And More...
-[Click here to join support!](https://t.me/joinchat/AAAAAD9Q5GY1hCzCR319zA)
+[Click here to join support!](https://t.me/zzz_mahsa_zzz)
 
 # Developer
-* [@ByeCoder](https://telegram.me/ByeCoder) - Pouya Poorrahman
+* [@Zzz_MahsA_zzZ](https://telegram.me/Zzz_MahsA_zzZ) - Mahsa Nasriri
 
-<b>Edit and Develop by JoveTeam</b>
+<b>Edit and Develop by WarriorsTeam</b>
 
-<i>special tnx to MuteTeam for this base</i>
+<i>special tnx to JoveTeam for this base</i>
