@@ -1,7 +1,7 @@
 # [WarriorsTG](https://github.com/WARRIORSTEAM/warriors)
 *TG-CLI based broadcasting bot!*
 
-*JoveGod was based on TeleMute!*
+*WarriorsTG was based on TeleMute!*
 # Install
 ```
 cd $HOME
