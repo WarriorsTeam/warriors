@@ -25,7 +25,7 @@ nano bot.lua
 #CTRL و X
 #را بزنید سپس y
 #و درنهایت اینتر بزنید.حال با دستور زیر میتوانید ربات خود را بدون آفی ران کنید:
-screen ./jove.sh
+screen ./warriors.sh
 ```
 Create a bot!
 
