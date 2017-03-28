@@ -92,5 +92,5 @@ echo -e "${CYAN}|THIS SOURCE BASED ON TELEMUTE AND EDITED FOR WarriorsTG BY MAHS
 echo -e "${CYAN}|-------------|---------------|----------------|----------------|${NC}"
 echo -e "${CYAN}JOVE GOD INSTALLED! Create a bot with launch(./launch.sh)${NC}"
 echo -e "${CYAN}Edit and put your sudo id in(nano bot.lua)${NC}"
-echo -e "${CYAN}Then use anticrash for lifetime runing bot(screen ./jove.sh)${NC}"
+echo -e "${CYAN}Then use anticrash for lifetime runing bot(screen ./warriors.sh)${NC}"
 exit
