@@ -2,12 +2,12 @@ package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
 .. ';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
--- @MuteTeam
+-- @WarriorsTM
 http = require("socket.http")
 https = require("ssl.https")
 http.TIMEOUT = 10
 JSON = require('dkjson')
--------@MuteTeam
+-------@WarriorsTM
 tdcli = dofile('tdcli.lua')
 redis = (loadfile "./libs/redis.lua")()
 serpent = require('serpent')
@@ -115,7 +115,7 @@ function vardump(value, depth, key)
   elseif type(value)  == 'function' or
     type(value) == 'thread' or
     type(value) == 'userdata' or
-    value == nil then --@JoveTeam
+    value == nil then --@WarriorsTM
     print(spaces .. tostring(value))
   elseif type(value)  == 'string' then
     print(spaces .. linePrefix .. '"' .. tostring(value) .. '",')
@@ -255,7 +255,7 @@ if input:match("^[#!/][Ii][Dd]$") and is_mod(msg) or input:match("^[Ii][Dd]$") a
         local hash = 'owners:'..chat_id
         local owner = redis:get(hash)
         if owner == nil then
-          tdcli.sendText(chat_id, 0, 0, 1, nil, '🔸گروه `مالک` ندارد \n🎗 کانال: @JoveTeam', 1, 'md')
+          tdcli.sendText(chat_id, 0, 0, 1, nil, '🔸گروه `مالک` ندارد \n🎗 کانال: @WarriorsTM', 1, 'md')
         end
         local owner_list = redis:get('owners:'..chat_id)
         text85 = '🎗 `مالک گروه:`\n\n '..owner_list
@@ -1078,7 +1078,7 @@ if input:match("^[#!/][Hh]elp$") and is_mod(msg) or input:match("^[Hh]elp$") and
         .."🏅 ورژن 8.0 اوربیتال واریور - @WarriorsTM"
         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
-if input:match("^[#!/[Ww]ove$") and is_mod(msg) or input:match("^[Ww]ove$") and is_mod(msg) or input:match("^واریور$") and is_mod(msg) then
+if input:match("^[#!/[Ww]arriors$") and is_mod(msg) or input:match("^[Ww]arriors$") and is_mod(msg) or input:match("^واریور$") and is_mod(msg) then
         local text = "🏅 واریور تی جی ورژن 8.0: \n"
 	.." واریور رباتي قدرتمند جهت مديريت سوپرگروه: \n"
         .."🏅 نوشته شده برپايه tdcli(New TG) \n"
@@ -1277,7 +1277,7 @@ if redis:get('edittg:'..data.chat_id_) then
 end 
   elseif (data.ID == "UpdateOption" and data.name_ == "my_id") then
 	
-    -- @JoveTeam
+    -- @WarriorsTM
     tdcli_function ({
       ID="GetChats",
       offset_order_="9223372036854775807",
